@@ -1,6 +1,8 @@
 # beersmith2-docker
 Running Beersmith 2 using Docker for non supported OSs
 
+Right now, this is primarily ready for Linux OSs and hasn't been tested anywhere other than Fedora 28
+
 # Prerequisites
  * Docker installed
  * Latest version of beersmith 2 downloaded
