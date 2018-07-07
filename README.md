@@ -11,4 +11,4 @@ Right now, this is primarily ready for Linux OSs and hasn't been tested anywhere
 # Setup
  * Create a folder in your home directory and copy the dockerfile there, along with the latest version of Beersmith 2 (make sure the filenames match what is in the dockerfile)
  * Build the image: `docker build -t beersmith .`
- * Make an easy command: `echo "docker run -ti --rm -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.beersmith2:/home/developer/.beersmith2   beersmith" > beersmith2 && chmod +x beersmith2`
+ * Make an easy command: `echo "docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.beersmith2:/home/developer/.beersmith2   beersmith" > beersmith2 && chmod +x beersmith2`
