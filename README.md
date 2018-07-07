@@ -3,6 +3,9 @@ Running Beersmith 2 using Docker for non supported OSs
 
 Right now, this is primarily ready for Linux OSs and hasn't been tested anywhere other than Fedora 28
 
+# Acknowledgements
+This awesome blog post on X11 forwarding in Docker: http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
+
 # Prerequisites
  * Docker installed
  * Latest version of beersmith 2 downloaded
