@@ -9,7 +9,7 @@ This awesome blog post on X11 forwarding in Docker: http://fabiorehm.com/blog/20
 # Prerequisites
  * Docker installed
  * Latest version of beersmith 2 downloaded
- * selinux permissions set appropriately for X11 forwarding
+ * selinux permissions set appropriately for X11 forwarding (or disabled https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-enabling_and_disabling_selinux-disabling_selinux)
 
 # Setup
  * Create a folder in your home directory and copy the dockerfile there, along with the latest version of Beersmith 2 (make sure the filenames match what is in the dockerfile)
